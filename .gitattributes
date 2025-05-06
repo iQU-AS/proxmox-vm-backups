@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+.zst filter=lfs diff=lfs merge=lfs -text
+.vma.zst filter=lfs diff=lfs merge=lfs -text
+*.vma.zst filter=lfs diff=lfs merge=lfs -text
